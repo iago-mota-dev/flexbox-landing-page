@@ -11,7 +11,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+/* first section and header */
 .frontpage{
     
     background-color: #1F2937;
@@ -75,4 +75,53 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+/* second section */
+.midSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: #fff;
+    color:#000;
+}
+.midContainer{
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.midContainer h2{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.squareSection{
+    padding-top: 34px;
+    display: flex;
+    gap: 34px;
+    flex-wrap: wrap;
+}
+.square{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 165px;
+    flex: 1;
+    
+
+}
+.square p{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.item{
+    border: 4px solid #3882f6;
+    width: 165px;
+    height: 165px;
+    border-radius: 8px;
+    margin-bottom:8px;
 }
