@@ -76,15 +76,22 @@ body{
     padding: 8px 24px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .img{
     max-width: 520px;
     max-height: 240px;
-    flex: 1 1 0;
+    flex: 1 1 auto;
     background: #6D747D;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 8px;
+    
+}
+.img img{
+    border-radius: 8px;
+    border: 2px solid #E5E7EB;
 }
 /* second section */
 .midSection{
@@ -125,15 +132,21 @@ body{
 .square p{
     display: flex;
     flex-wrap: wrap;
+    color: #1F2937;
     
     
 }
 .item{
-    border: 4px solid #3882f6;
+    border: 4px solid #1F2937;
     width: 165px;
     height: 165px;
-    border-radius: 8px;
+    border-radius: 6px;
     margin-bottom:8px;
+}
+.item img{
+    width: 165px;
+    height: 165px;
+    border-radius: 1px;
 }
 /* review section */
 .reviewSection{
